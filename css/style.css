@@ -1,0 +1,37 @@
+.navigation{
+	margin: 0 auto;
+}
+.logo{
+	width:30px;
+	height: 30px;
+}
+.banner1{
+	height:100%;
+}
+.banner2{
+	height:100%;
+}
+.banner3{
+	height:100%;
+}
+.carousel-item{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 700px;
+}
+.containerje{
+	display: flex;
+	justify-content: space-between;
+}
+.kuratana{
+	margin-left:50px;
+}
+.call{
+	height: 300px;
+	background-size: cover;
+	background-position:all;
+	position: relative;
+
+}
