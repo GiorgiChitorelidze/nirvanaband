@@ -12,42 +12,54 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
-	<nav class="navbar navbar-default fixed-top">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>                        
-	      <img class="logooo navbar-brand" src="images/logooo.png" alt="logo">
-	    </div>
-	</div>
-	</nav>
+	<nav class="fixed-top navbar-expand-lg navbar-dark navbar">
+  <img class="logooo navbar-brand" src="images/logooo.png" alt="logo">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">History<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Tour Dates</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Music</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>	
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-		  <ol class="carousel-indicators">
-		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		  </ol>
-		  <div class="carousel-inner">
-		    <div class="carousel-item active">
-		      <img src="images/banner2.jpg" width="1200" height="700" class="d-block w-100" alt="banner ">
-		    </div>
-		    <div class="carousel-item">
-		      <img src="images/banner1.jpg" width="1200" height="700" class="d-block w-100" alt="banner">
-		    </div>
-		    <div class="carousel-item">
-		      <img src="images/banner3.jpg" width="1200" height="700" class="d-block w-100" alt="banner">
-		    </div>
-		  </div>
-		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Previous</span>
-		  </a>
-		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Next</span>
-		  </a>
-		</div>
+			  <ol class="carousel-indicators">
+			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			  </ol>
+			  <div class="carousel-fade carousel-inner">
+			    <div class="carousel-item active" style="background-image: url('banner1.jpg');">    
+			    </div>
+			    <div class="carousel-item" style="background-image: url('banner2.jpg');">
+			    </div>
+			   
+			    <div class="carousel-item" style="background-image: url('banner3.jpg');">
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+	        </div>
+	 </section>
+
  		<div id="tour" class="bg-1">
 		<div class="container text-center">
 		<iframe class="video1" width="789" height="444" src="https://www.youtube.com/embed/vUKqAGwBxts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -55,15 +67,15 @@
 		 <p>Nirvana was an American rock band formed in Aberdeen, Washington, in 1987. It was founded by lead singer and guitarist Kurt Cobain and bassist Krist Novoselic. Nirvana went through a succession of drummers, the longest-lasting and best-known being Dave Grohl, who joined in 1990. Though the band dissolved in 1994 after the death of Cobain, their music maintains a popular following and continues to influence modern rock and roll culture.</p>
 		 <br>
 		  <div class="row">
-		    <div class="col-sm-4">
+		    <div class="col-lg-4 col-md-12">
 		      <p><strong>Kurt Cobain</strong></p><br>
 		     <a href="https://en.wikipedia.org/wiki/Kurt_Cobain"><img class="kurtana" src="images/kurtcobain.jpg" alt="Random Name"></a>
 		    </div>
-		    <div class="col-sm-4">
+		    <div class="col-lg-4 col-md-6 col-sm-12">
 		      <p><strong>Krist Novoselic</strong></p><br>
 		     <a href="https://en.wikipedia.org/wiki/Krist_Novoselic"><img class="kurtana" src="images/krist.jpg" alt="Random Name"></a>
 		    </div>
-		    <div class="col-sm-4">
+		    <div class="col-lg-4 col-md-6 col-sm-12">
 		      <p><strong>Dave Grohl</strong></p><br>
 		     <a href="https://en.wikipedia.org/wiki/Dave_Grohl"><img class="kurtana" src="images/dave.jpg" alt="Random Name"></a>
 		   </div>
@@ -72,7 +84,7 @@
 </div>
 <div class="bg-1">
 	<div class="container">
-<ul class="nav nav-pills mb-3 text-center" id="pills-tab" role="tablist">
+<ul class="nav nav-pills mb-3 text-center nelazviadi" id="pills-tab" role="tablist">
   <li class="nav-item">
     <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Kurt Cobain</a>
   </li>
@@ -91,27 +103,27 @@
 </div>
 </div>
 <div class="bg-1">
-<div class="mx-auto" style="width: 200px;">
+<div class="mx-auto col-md-6 music" style="width: 200px;">
 	<audio  controls>
 	<source src="audio1.mp3" type="audio/mpeg">
 	</audio>
 </div>
-<div class="mx-auto mt-3" style="width: 200px;">
+<div class="mx-auto mt-3 col-md-6 music" style="width: 200px;">
 	<audio controls>
 	<source src="audio2.mp3" type="audio/mpeg">
 	</audio>
 </div>
-<div class="mx-auto mt-3" style="width: 200px;">
+<div class="mx-auto mt-3 col-md-6 music" style="width: 200px;">
 	<audio controls>
 	<source src="audio3.mp3" type="audio/mpeg">
 	</audio>
 </div>
-<div class="mx-auto mt-3" style="width: 200px;">
+<div class="mx-auto mt-3 col-md-6 music" style="width: 200px;">
 	<audio controls>
 	<source src="audio4.mp3" type="audio/mpeg">
 	</audio>
 </div>
-<div class="mx-auto mt-3" style="width: 200px;">
+<div class="mx-auto mt-3 col-md-6 music" style="width: 200px;">
 	<audio controls>
 	<source src="audio5.mp3" type="audio/mpeg">
 	</audio>
@@ -121,50 +133,29 @@
   <div class="container">
     <h3 class="text-center texta">TOUR DATES</h3>
     
-    <div class="row text-center">
-      <div class="col-sm-4">
+    <div class="row text-center hello">
+      <div class="col-lg-4 col-md-6">
         <div class="thumbnail border">
-          <img src="images/Munich.jpg" alt="Munich" width="277" height="300">
+          <img class="imagaaaa" src="images/Munich.jpg" alt="Munich">
           <p><strong>Munich, Germany</strong></p>
           <p>Tue. 01 March 1994</p>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="thumbnail border">
-          <img src="images/slovenia.JPG" alt="Slovenia" width="280" height="300">
+          <img class="imagaaaa" src="images/slovenia.JPG" alt="Slovenia">
           <p><strong>Ljubljana, Slovenia</strong></p>
           <p>Sun. 27 February 1994</p>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="thumbnail border">
-          <img src="images/milan.jpg" alt="Milan" width="280" height="300">
+        <div class="surati">
+          <img class="imagaaaa" src="images/milan.jpg" alt="Milan">
+     	 </div>
           <p><strong>Milan, Italy</strong></p>
           <p>Fri. 25 February 1994</p>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="bg-1">
-<div id="contact" class="container">
-  <h3 class="text-center contact">Contact</h3>
-  <div class="row">
-    <div class="col-md-4 contact">
-      <p><span class="glyphicon glyphicon-map-marker"></span>Tbilisi, Georgia</p>
-      <p><span class="glyphicon glyphicon-phone"></span>Phone: +995592999320</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> Email: test@gmail.com</p>
-    </div>
-    <div class="col-md-8">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
       </div>
     </div>
   </div>
