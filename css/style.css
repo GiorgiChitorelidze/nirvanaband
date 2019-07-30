@@ -89,6 +89,12 @@ ul{
         width: 277px;
         height: 300px;
 }
+@media(max-width: 1081px){
+    .imagaaaa {
+    width: 220px;
+    height: 300px;
+}
+}
 @media(max-width: 1024px){
     .videoe{
         display: none;
@@ -161,6 +167,11 @@ ul{
         display: none;
     }
     .nelazviadi{
+        display: none;
+    }
+}
+@media(max-width: 500px){
+    .row{
         display: none;
     }
 }
